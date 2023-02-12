@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/page.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title> page</title>
+    <title> Form page</title>
 </head>
 <body >
     <!-- navbar start  -->
@@ -105,8 +105,14 @@
                     <div class=" bg-image">
                   <div class="d-flex justify-content-center">
                     <div class="bg-text">
-                    <h1 class="fw-bolder fs-4 text-danger">Welcome to Our Visited Webside</h1>
-                    <h1 class="fw-bolder fs-4 text-danger">Online Course Registration Form</h1>
+                    <marquee behavior="" direction="2s">
+                      <h1 class="fw-bolder fs-4 text-danger">Welcome to Our Visited Webside</h1>
+                    </marquee>
+                    <h1 class="fw-bolder fs-1 text-danger">
+                      <div id="MyClockDisplay" class="clock clock-design" onload="showTime()" >
+                      </div>
+                    </h1>
+                    <h5 class="bg-sub-text"><a href="form.html" target="_blank" class="text-decoration-none btn btn-info text-danger fw-bold">Click to Registration</a></h5>
                     </div>
                   </div>
                     </div>
@@ -155,7 +161,7 @@
         <div class="card mb-3 common-design" style="width: 18rem;">
             <img src="img/g4.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
-              <h5 class="card-title text-light text-center" id="naymar"><span class="even-text">বশেফমুবিপ্রবিতে আন্তঃবিভাগীয় ব্যাডমিন্টন খেলার উদ্বোধন</span></h5>      
+              <h5 class="card-title text-light text-center" id="naymar"><span class="even-text">শিক্ষা সচিবের সঙ্গে বশেফমুবিপ্রবি উপাচার্যের…</span></h5>      
             </div>
           </div>
     </div>
@@ -190,5 +196,6 @@
 </div>
 <!-- footer section end -->
  <script src="js/bootstrap.min.js"></script>
+ <script src="js/CLOCK.js"></script>
 </body>
 </html>
