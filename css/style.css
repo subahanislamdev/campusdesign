@@ -1,6 +1,8 @@
 
 
-
+body{
+    font-family: 'Poppins', sans-serif;
+}
 /* common button */
 .common-button :hover{
     background-color: #FF6263;
